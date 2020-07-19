@@ -5,8 +5,9 @@ import { connect } from 'react-redux';
 import CollectionItem from '../../components/collection-item/collection-item.component';
 import { CollectionPageContainer, CollectionTitle, CollectionItemsContainer } from './collection.styles';
 
-
 const CollectionPage = ({collection}) => {
+ 
+
     const {title, items} = collection;
     return (
         <CollectionPageContainer>
