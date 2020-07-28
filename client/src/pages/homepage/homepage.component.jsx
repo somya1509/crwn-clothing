@@ -5,7 +5,7 @@ import Directory from '../../components/directory/directory.component';
 import { HomePageContainer } from './homepage.styles';
 
 const HomePage = () => (
-  <HomePageContainer className='homepage'>
+  <HomePageContainer>
     <Directory />
   </HomePageContainer>
 );
